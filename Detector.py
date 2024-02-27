@@ -12,7 +12,6 @@ class Detector:
         self.modelPath = modelPath
         self.classesPath = classesPath
         
-
         ####################################
 
         self.net = cv2.dnn_DetectionModel(self.modelPath, self.configPath)
